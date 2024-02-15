@@ -1,5 +1,3 @@
-Note: If you are a reviewr of our paper, some files may miss due to Anonymous GitHub does not support files that are larger than 8MB. The full size of this repository is over 3GB.
-
 # The full pipeline of creating UHGEval hallucination dataset
 
 ## 1. Collect the raw news
