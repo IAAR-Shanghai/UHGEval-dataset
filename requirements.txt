@@ -1,0 +1,8 @@
+tqdm
+numpy
+matplotlib
+label-studio
+tenacity
+openai==0.28.0
+evaluate
+jieba

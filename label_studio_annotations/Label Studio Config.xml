@@ -1,0 +1,20 @@
+<View>
+    <Labels name="answer" toName="toAnnotate">
+        <Label value="错误标注选择器" background="#FFA39E"/>
+    </Labels>
+
+    <View style="border: 2px solid mediumseagreen; padding:10px;border-radius: 10px; margin-top: 5px;">
+        <Text name="newsBeginning" value="$newsBeginning" granularity="paragraph"/>
+    </View>
+
+    <View style="border: 2px solid gold; padding:10px; border-radius: 10px; margin-top: 5px;">
+        <Header value="机器续写" size="6"/>
+        <Text name="candidateHallucinatedContinuation" value="$candidateHallucinatedContinuation" granularity="paragraph"/>
+        <Header value="机器标注" size="6"/>
+        <Text name="toAnnotate" value="$toAnnotate" granularity="paragraph"/>
+    </View>
+
+    <View style="border: 2px solid mediumseagreen; padding:10px; border-radius: 10px; margin-top: 5px;">
+        <Text name="newsRemainder" value="$newsRemainder" granularity="paragraph"/>
+    </View>
+</View>
